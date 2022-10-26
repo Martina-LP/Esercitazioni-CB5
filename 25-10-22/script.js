@@ -6,13 +6,13 @@ let result;
 alert("Il risultato è disponibile in console!");
 
 // if... else if... else
-if (operator == '+') {
+if (operator === '+') {
   result = firstNumber + secondNumber;
 }
-else if (operator == '-') {
+else if (operator === '-') {
   result = firstNumber - secondNumber;
 }
-else if (operator == '*') {
+else if (operator === '*') {
   result = firstNumber * secondNumber;
 }
 else {
