@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-  color: hsl(193, 38%, 86%);
+  color: var(--light);
   font-size: 22px;
   text-align: center;
 }
