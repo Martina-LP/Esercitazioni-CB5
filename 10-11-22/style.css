@@ -1,0 +1,75 @@
+:root {
+  --dark: black;
+  --light: white;
+  --pink: rgb(218, 68, 98);
+  --blue: rgba(63,94,251,1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle, var(--blue) 0%, var(--pink) 100%);
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  height: 250px;
+  width: 420px;
+  padding: 25px;
+  background-color: var(--pink);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: var(--blue);
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: hsl(193, 38%, 86%);
+  font-size: 22px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--pink);
+  text-decoration: dashed;
+}
+
+.attribution {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  color: var(--dark);
+  font-size: 20px;
+  text-align: center;
+}
+
+#clicker {
+  height: 50px;
+  width: 100px;
+  border: 0;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: var(--blue);
+  position: fixed;
+  left: 50%;
+  bottom: -10%;
+  transform: translate(-50%,-50%);
+}
+
+.new {
+  color: var(--light);
+  font-weight: bold;
+}
+
+#clicker:hover {
+  box-shadow: 0 0 12px var(--blue);
+}
