@@ -1,0 +1,149 @@
+:root {
+  --dark: black;
+  --light: white;
+  --primary: #D4D3DD;
+  --secondary: #EFEFBB;
+  --box-shadow: rgba(100, 100, 100, 0.5);
+  --bg-img: rgba(255, 255, 255, 0.6);
+  --bg-number: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 100vh;
+  background-color: var(--secondary);
+	background-color: linear-gradient(to right, #D4D3DD, #EFEFBB);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.poke-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 252px;
+}
+
+#card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  margin: 16px;
+  border-radius: 6px;
+  box-shadow: 0 3px 15px var(--box-shadow);
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  background-color: var(--primary);
+  color: var(--dark);
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  margin: 10px auto;
+  background-color: var(--bg-img);
+  border-radius: 50%;
+}
+
+.poke-number {
+  background-color: var(--bg-number);
+  border-radius: 10px;
+	font-size: 0.8em;
+  margin: 4px auto;
+	padding: 5px 10px;
+}
+
+.poke-type {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.bg-fire {
+  background-color: #fddfdf;
+}
+
+.bg-grass {
+  background-color: #defde0;
+}
+
+.bg-electric {
+  background-color: #fcf7de;
+}
+
+.bg-water {
+  background-color: #def3fd;
+}
+
+.bg-ground {
+  background-color: #f4e7da;
+}
+
+.bg-rock {
+  background-color: #d5d5d4;
+}
+
+.bg-fairy {
+  background-color: #fceaff;
+}
+
+.bg-poison {
+  background-color: #98d7a5;
+}
+
+.bg-bug {
+  background-color: #f8d5a3;
+}
+
+.bg-dragon {
+  background-color: #97b3e6;
+}
+
+.bg-psychic {
+  background-color: #eaeda1;
+}
+
+.bg-flying {
+  background-color: #f5f5f5;
+}
+
+.bg-fighting {
+  background-color: #e6e0d4;
+}
+
+.bg-normal {
+  background-color: #f5f5f5;
+}
+
+.bg-ghost {
+  background-color: #705898;
+}
+
+.bg-ice {
+  background-color: #98d8d8;
+}
