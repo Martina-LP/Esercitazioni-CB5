@@ -1,0 +1,81 @@
+:root {
+  --bg-color: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,73,83,1) 35%, rgba(0,212,255,1) 100%);
+  --dark: black;
+  --light: white;
+  --box-shadow: rgba(100, 100, 100, 0.5);
+}
+
+body {
+  margin: 0;
+  padding:0;
+  font-family: 'Georgia', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background: var(--bg-color)
+}
+
+h1 {
+  margin: 30px 0;
+  text-align: center;
+  color: var(--light);
+  font-size: 40px;
+}
+
+.container {
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 30%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 20px 18px var(--box-shadow);
+}
+
+.card_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_title {
+  font-size: 33px;
+}
+
+.card_id {
+  background-color: var(--dark);
+  color: var(--light);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.buttons {
+  margin: 0 5%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn_prev, 
+.btn_next {
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 20px 40px;
+  box-shadow: 2px 2px 0 0;
+  border: none;
+  border-radius: 6px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.btn_prev:hover, 
+.btn_next:hover {
+  background-color: var(--light);
+  color: var(--dark);
+}
