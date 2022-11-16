@@ -4,8 +4,35 @@ const url = "http://localhost:3000/pokemon"
 
 const form = document.forms.pokemon;
 const element = form.elements;
+const container = q(".container");
 
-const ul = q(".pokemonList");
+// const ul = q(".pokemonList");
+const p = q(".pokemonList");
+
+const createCards = (data) => {
+  const card = c("div");
+  card.classList.add("pokemonCard");
+  card.classList.add(`bg-${data.type}`);
+
+  const imgPlaceholder = c("div");
+  imgPlaceholder.className = "pokemonImg";
+
+  const name = c("h3");
+  name.className = "pokemonName";
+
+  const type = c("h4");
+  type.className = "pokemonType";
+
+  const id = c("p");
+  id.className = "pokemonId";
+
+  name.textContent = `Name: ${data.name}`;
+  type.textContent = `Type: ${data.type}`;
+  id.textContent = `ID: ${data.id}`;
+
+  container.append(card);
+  card.append(imgPlaceholder, name, type, id);
+}
 
 form.addEventListener("submit", (e) => {
 	e.preventDefault();
@@ -25,4 +52,4 @@ form.addEventListener("submit", (e) => {
 		})
 })
 
-window.onload = GET(url).then(res => res.map(pkm => ul.innerHTML += `<li>Name: ${pkm.name} ~~~ Type: ${pkm.type}</li>`));
+window.onload = GET(url).then(res => res.map(pokemon => createCards(pokemon)));
