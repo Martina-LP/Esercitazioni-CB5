@@ -1,0 +1,24 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "type": "grass"
+    },
+    {
+      "id": "d0ee23db-bcc8-4042-96c8-2a72e5442ee0",
+      "name": "Charizard",
+      "type": "fire"
+    },
+    {
+      "id": "bbe8574b-55d0-4db4-9571-a11554ea25fa",
+      "name": "Squirtle",
+      "type": "water"
+    },
+    {
+      "id": "95118531-f24a-4a47-9940-b1a83c7477aa",
+      "name": "Jigglypuff",
+      "type": "fairy"
+    }
+  ]
+}
