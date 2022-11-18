@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>18-11-22</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <h1>Inserisci Pokemon</h1>
+    <div class="form_container">
+      <form name="pokemon">
+        <input type="text" name="pkmName" placeholder="Name" style="width: 200px; height: 50px" />
+        <input type="text" name="pkmType" placeholder="Type" style="width: 200px; height: 50px" />
+        <input type="submit" value="Send" class="btn" style="width: 200px; height: 50px" />
+      </form>
+    </div>
+    <div class="form_container">
+      <form name="pokemonEdit">
+        <input type="text" name="idPatch" placeholder="Insert ID" style="width: 200px; height: 50px" />
+        <input type="text" name="namePatch" placeholder="Name" style="width: 200px; height: 50px" />
+        <input type="text" name="typePatch" placeholder="Type" style="width: 200px; height: 50px" />
+        <input type="submit" value="Edit" class="btn" style="width: 200px; height: 50px" />
+      </form>
+    </div>
+
+    <h2>Lista Pokemon</h2>
+    <!-- <ul class="pokemonList"></ul> -->
+    <div class="container"></div>
+
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/utils.js"></script>
+  </body>
+</html>

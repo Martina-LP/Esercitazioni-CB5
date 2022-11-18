@@ -1,0 +1,134 @@
+:root {
+  --bg-color: linear-gradient(to top, 
+    pink 0%,
+    pink 50%,
+    paleturquoise 50%,
+    paleturquoise 100%);
+  --dark: black;
+  --light: white;
+  --box-shadow: rgba(100, 100, 100, 0.5);
+  --p: pink;
+  --pt: paleturquoise;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  font-family: 'Georgia', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background: var(--bg-color)
+}
+
+h1,
+h2 {
+  margin: 30px 0;
+  text-align: center;
+  color: var(--light);
+  font-size: 40px;
+}
+
+h2 {
+  margin-top: 170px;
+}
+
+.form_container {
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 80px;
+  margin: 0 40%;
+  border-radius: 6px;
+}
+
+input {
+  padding: 0;
+  border: 1px solid var(--p);
+  border-radius: 6px;
+}
+
+.btn {
+  background-color: var(--dark);
+  color: var(--p);
+  padding: 20px 40px;
+  box-shadow: 2px 2px 0 0;
+  border: none;
+  border-radius: 6px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.btn:hover,
+.btnDelete:hover {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.container {
+  margin-top: 100px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.pokemonCard {
+  box-sizing: border-box;
+  margin-top: 8px;
+  width: 250px;
+  padding: 8px;
+  border: 1px solid var(--pt);
+  box-shadow: 8px 8px 0px var(--pt);
+  border-radius: 6px;
+}
+
+.pokemonCard:hover {
+  border: 1px solid var(--light);
+  box-shadow: 8px 8px 0px var(--light);
+  padding: 10px;
+}
+
+.pokemonImg {
+  height: 150px;
+  width: 100%;
+  background-color: var(--light);
+  border-radius: 6px;
+}
+
+
+.pokemonType {
+  font-weight: normal;
+}
+
+.btnEdit, 
+.btnDelete {
+  background-color: var(--dark);
+  color: var(--pt);
+  padding: 10px 20px;
+  margin-left: 14px;
+  border: none;
+  border-radius: 6px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+/* .pokemonList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  color: var(--dark);
+  font-weight: bold;
+}
+
+ul li {
+  margin-bottom: 10px;
+  text-align: center;
+} */
