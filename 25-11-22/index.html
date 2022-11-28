@@ -4,14 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
   <title>25-11-22</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Your Calculator</h1>
+  <h2>Addiction</h2>
   <form method="POST" action="/">
     <input type="number" name="num1" placeholder="First number">
     <input type="number" name="num2" placeholder="Second number">
-    <input type="submit" value="Calculate">
+    <input class="btn" type="submit" value="Calculate">
+  </form>
+  <h2>Subtraction</h2>
+  <form method="POST" action="/sub">
+    <input type="number" name="num1" placeholder="First number">
+    <input type="number" name="num2" placeholder="Second number">
+    <input class="btn" type="submit" value="Calculate">
+  </form>
+  <h2>Multiplication</h2>
+  <form method="POST" action="/mul">
+    <input type="number" name="num1" placeholder="First number">
+    <input type="number" name="num2" placeholder="Second number">
+    <input class="btn" type="submit" value="Calculate">
+  </form>
+  <h2>Division</h2>
+  <form method="POST" action="/div">
+    <input type="number" name="num1" placeholder="First number">
+    <input type="number" name="num2" placeholder="Second number">
+    <input class="btn" type="submit" value="Calculate">
   </form>
 </body>
 </html>
