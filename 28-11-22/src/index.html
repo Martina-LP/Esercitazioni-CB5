@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+  integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>28-11-22</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <h1>Your Calculator</h1>
+  <form name="calcolatrice">
+    <input type="text" name="param1" class="parametro1" placeholder="First number" required>
+    <input type="text" name="param2" class="parametro2" placeholder="Second number" required>
+    <h2 class="btns-title">Select operation:</h2>
+    <div class="buttons">
+      <button class="btn somma"><i class="fas fa-plus"></i></button>
+      <button class="btn sottrazione"><i class="fas fa-minus"></i></button>
+      <button class="btn moltiplicazione"><i class="fas fa-asterisk"></i></button>
+      <button class="btn divisione"><i class="fas fa-divide"></i></button>
+      <button class="btn modulo"><i class="fas fa-percentage"></i></button>
+    </div>
+  </form>
+  <h2 class="risultato"></h2>
+
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
