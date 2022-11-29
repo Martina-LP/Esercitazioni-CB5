@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>CineStore</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <div class="hero_post">
+    <div class="text">
+    <h1>CineStore</h1>
+    </div>
+        
+    <div class="form_attori">
+      <h2>Add actors</h2>
+      <form name="nuovi_attori">
+        <input type="text" name="nome_attore" placeholder="Add name" required/>
+        <input type="text" name="cognome_attore" placeholder="Add surname" required/>
+        <input type="text" name="nascita_attore" placeholder="Add date of birth" required/>
+        <input type="submit" class="form_btn"/>
+      </form>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <div class="card_container">
+      <h2>Recently added</h2>
+    </div>
+  </div>
+
+  <script src="./js/post.js" type="module"></script>
+  <script src="./js/utils.js" type="module"></script>
+</body>
+</html>
