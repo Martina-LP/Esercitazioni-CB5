@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>CineStore</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  
+  <div class="hero">
+    <div class="text">
+      <h1 class="neonText">Lights! Camera! Action!</h1>
+    </div>
+  </div>
+
+  <div class="gallery_attori">
+    <div class="card_container_attori">
+      <div class="form_attori">
+        <h2>Actors</h2>
+        <h3>Didnt' find what you were looking for? <br>Fill the blanks below</h3>
+        <form name="nuovi_attori">
+          <input
+            type="text"
+            name="nome_attore"
+            placeholder="Insert name"
+            required
+          />
+          <input
+            type="text"
+            name="cognome_attore"
+            placeholder="Insert surname"
+            required
+          />
+          <input type="submit" class="form_btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery_registi">
+    <div class="card_container_registi">
+      <div class="form_registi">
+        <h2>Directors</h2>
+        <h3>Didnt' find what you were looking for? <br>Fill the blanks below</h3>
+        <form name="nuovi_registi">
+          <input
+            type="text"
+            name="nome_regista"
+            placeholder="Insert name"
+            required
+          />
+          <input
+            type="text"
+            name="cognome_regista"
+            placeholder="Insert surname"
+            required
+          />
+          <input type="submit" class="form_regista_btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/script.js" type="module"></script>
+  <script src="./js/utils.js" type="module"></script>
+</body>
+</html>
