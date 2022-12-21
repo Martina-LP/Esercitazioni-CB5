@@ -1,0 +1,13 @@
+.Text {
+  margin: 0;
+  width: 100%;
+}
+
+.main-text {
+  font-family: 'Mulish', sans-serif;
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+}
