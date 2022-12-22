@@ -1,0 +1,21 @@
+.Header {
+  margin: 0 0 2rem;
+  padding: 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.nav ul {
+  display: flex;
+  gap: .5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
