@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.App {
+  margin: 2rem auto;
+  text-align: center;
+  width: min(80%, 60rem);
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  margin-left: .5rem;
+}
