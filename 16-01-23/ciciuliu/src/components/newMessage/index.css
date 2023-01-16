@@ -1,0 +1,8 @@
+.NewMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 6px 18px;
+}

@@ -1,0 +1,32 @@
+.Message {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 6px 18px;
+}
+
+.Message img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: rgb(189, 251, 189);
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.4);
+}
+
+.Message__textContent {
+  font-size: 0.9rem;
+}
+
+.Message__textContent p:nth-child(1) {
+  color: lightslategray;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+
+.Message__textContent h4 {
+  margin: 6px 0;
+  color: rgb(88, 191, 126);
+  font-size: 1.2rem;
+}
