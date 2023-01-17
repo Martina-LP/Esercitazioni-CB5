@@ -11,7 +11,10 @@ const POST = async (resource, body) => {
   const res = await fetch(`${BASE_URL}/${resource}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ body }),
+    body: JSON.stringify({
+      title: `${ body }`,
+      userId: 5,
+     }),
   });
   const data = await res.json();
 

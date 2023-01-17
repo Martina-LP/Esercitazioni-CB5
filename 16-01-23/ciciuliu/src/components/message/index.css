@@ -7,26 +7,26 @@
 }
 
 .Message img {
-  width: 75px;
-  height: 75px;
-  border-radius: 100%;
-  background-color: rgb(189, 251, 189);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #1DA1F2;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.4);
 }
 
 .Message__textContent {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
-.Message__textContent p:nth-child(1) {
-  color: lightslategray;
-  font-weight: bold;
-  font-size: 0.8rem;
-  margin-top: 0;
+.Message__textContent h3 {
+  color: goldenrod;
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
 .Message__textContent h4 {
   margin: 6px 0;
-  color: rgb(88, 191, 126);
+  color: #1DA1F2;
   font-size: 1.2rem;
 }
