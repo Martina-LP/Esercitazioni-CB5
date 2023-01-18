@@ -9,6 +9,7 @@
   height: 80px;
   border-radius: 50%;
   background-color: goldenrod;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
 }
 
 .SingleFriend_text {
@@ -19,4 +20,17 @@
 .SingleFriend_text h4 {
   color: #657786;
   font-size: 0.8rem;
+}
+
+@media (min-width: 800px) {
+  .SingleFriend img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .SingleFriend_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

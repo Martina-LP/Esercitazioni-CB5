@@ -1,12 +1,57 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #14171A; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1DA1F2; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(203, 90%, 34%); 
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  body {
+    overflow-y: hidden;
+  }
+
+  .App {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow-y: scroll;
+  }
+
+  .friendsSection,
+  .popularSection {
+    height: 100vh;
+    width: 25%;
+    padding: 24px;
+    background-color: #657786;
+  }
+
+  .mainSection {
+    width: 50%;
+    background-color: #14171A;
+  }
 }
