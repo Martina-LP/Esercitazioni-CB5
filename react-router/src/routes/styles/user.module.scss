@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+
+.User {
+  font-family: 'Trocchi', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 18px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  padding: 8px 8px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+h2, 
+h3, 
+h4, 
+p {
+  margin: 10px;
+  color: goldenrod;
+}
+
+img {
+  height: 200px;
+  width: 180px;
+  margin-bottom: 18px;
+}
+
+.button {
+  font-family: 'Trocchi', serif;
+  display: flex;
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  &:hover,
+  &:focus {
+    background-color: #F082AC;
+    color: black;
+  }
+}
