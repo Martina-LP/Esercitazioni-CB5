@@ -1,41 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
-
-.User {
-  font-family: 'Trocchi', serif;
+.main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
-  gap: 18px;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 400px;
-  padding: 8px 8px;
-  border-radius: 8px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  p {
+    font-weight: bold;
+    color: #735d78;
+    cursor: pointer;
+  }
 }
 
-h2, 
-h3, 
-h4, 
-p {
-  margin: 10px;
-  color: goldenrod;
-}
-
-img {
-  height: 200px;
-  width: 180px;
-  margin-bottom: 18px;
-}
-
-.button {
+button {
   font-family: 'Trocchi', serif;
   display: flex;
   background-color: #EA4C89;
