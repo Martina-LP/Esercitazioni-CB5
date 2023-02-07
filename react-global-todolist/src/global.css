@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Oxygen&display=swap');
+
+body {
+  font-family: 'Oswald', sans-serif;
+  height: 100vh;
+  margin: 0;
+  background: rgb(102,45,140);
+  background: radial-gradient(circle, rgba(102,45,140,1) 0%, rgba(72,91,101,1) 35%, rgba(237,30,121,1) 100%);
+  color: white;
+}
