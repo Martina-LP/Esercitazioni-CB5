@@ -1,0 +1,14 @@
+.App {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 676px) {
+  .App {
+    main {
+      flex-direction: row;
+    }
+  }
+}

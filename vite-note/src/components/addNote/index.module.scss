@@ -1,0 +1,31 @@
+.AddNote {
+  width: 100%;
+  padding: 20px;
+  border-right: 1px solid;
+  margin-right: 5px;
+  color: pink;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 380px;
+
+    input {
+      width: 320px;
+      padding: 12px 6px;
+      border-radius: 8px;
+      border: 0;
+      border: 1px solid lightgrey;
+      color: pink;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width: 676px) {
+  .AddNote {
+    width: 35%;
+  }
+}

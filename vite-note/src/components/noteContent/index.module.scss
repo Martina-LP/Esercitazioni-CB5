@@ -1,0 +1,21 @@
+.NoteContent {
+  width: 100%;
+  padding: 20px;
+  margin-left: 4px;
+  color: pink;
+
+  input {
+    width: 300px;
+    padding: 10px 8px;
+    border-radius: 8px;
+    border: 0;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 676px) {
+  .NoteContent {
+    width: 65%;
+  }
+}
