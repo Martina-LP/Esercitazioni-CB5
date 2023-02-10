@@ -1,3 +1,2 @@
-### Esercizio 1
-
-Riprendere l'esercitazione di ieri ed apportare modifiche stilistiche utilizzando `Sass`.
+Vite Note:
+Create a login/logout simple profile to produce a Notes list with the opportunity to edit and remove notes.
